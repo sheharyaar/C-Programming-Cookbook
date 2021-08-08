@@ -11,10 +11,10 @@ struct Transaction {
 };
 
 // Try to avoid this...
-print_receipt ( Transaction trans )
+print_receipt ( struct Transaction trans )
 
 // This is better...
-print_receipt ( Transaction* trans )
+print_receipt ( struct Transaction* trans )
 
 ```
 - For tighter padding ( less size ) for the struct try to place member variables in **_increasing/decreasing_** order of their sizes
