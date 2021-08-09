@@ -27,11 +27,9 @@ unsigned 	read		: 1;
 };
 
 ```
-- Bitfields can be modified using bit operations like `bit shifting`, `bit mask`, etc.
-
 ## Tips
 
-- Try to define the members as `unsigned` or `signed` exclusively as `int` size can vary by systems.
+- Try to define the members as _unsigned_ or _signed_ exclusively as _int_ size can vary by systems.
 
 ## Cautions
 
