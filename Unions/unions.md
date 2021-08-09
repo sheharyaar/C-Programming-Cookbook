@@ -6,7 +6,8 @@
 ```C
 
 /*
-	This program shows an example of union. The value union can hold any type of data at any time which can be accessed using proper typecasting.
+	This program shows an example of union. The value union can hold any type of data at 
+	any time which can be accessed using proper typecasting.
 */
 
 #include <stdio.h>
