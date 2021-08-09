@@ -15,15 +15,15 @@
 #define DISK_REGISTER (unsigned int *) 0xc0200142;
 
 struct DISK_REGISTER_FORMAT {
-unsigned	command		: 5;
-unsigned	sector		: 5;
-unsigned	track		: 9;
-unsigned	error_code	: 8;
-unsigned 	head_loaded	: 1;
-unsigned	write_protect	: 1;
-unsigned	disk_spinning	: 1;
-unsigned 	error_occured	: 1;
-unsigned 	read		: 1;
+	unsigned	command		: 5;
+	unsigned	sector		: 5;
+	unsigned	track		: 9;
+	unsigned	error_code	: 8;
+	unsigned 	head_loaded	: 1;
+	unsigned	write_protect	: 1;
+	unsigned	disk_spinning	: 1;
+	unsigned 	error_occured	: 1;
+	unsigned 	read		: 1;
 };
 
 ```
