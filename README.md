@@ -12,6 +12,8 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 
 ## Contents
 
+- [Register variables](./Misc/registers.md)
+
 - Structs
 	- [Notes on Structs](./Structs/struct.md)
 	- [Bitfields](./Structs/bitfields.md)
@@ -20,4 +22,4 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 	- [Unions](./Unions/unions.md)
 
 - Data Structures
-	- [Single Linked List - Optimised Insertion](./Data%20Structures/singlelinkList.md)
+	- [Single Linked List - Optimised Insertion](./Data%20Structures/singleLinkList.md)
