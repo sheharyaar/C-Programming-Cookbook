@@ -4,7 +4,7 @@
 
 Generally it is taught in insertion that we take two pointers `current` and `prev` and then perform insertion. But it also brings a corner case : `insertion at head` which makes us write extra code for that process. Even tough it works it is **not the best** way to insert.
 
-Experienced C Programmers generalise that case using their understanding of the data structure and pointers in the following way.
+- Experienced C Programmers generalise that case using their understanding of the data structure and pointers in the following way.<p>
 
 ```c
 #include <stdio.h>
@@ -28,6 +28,42 @@ typedef struct Node {
 int insertList(node** linkp, int num){
 	node* current = *linkp;
 	node* temp = malloc(sizeof(node));
+	if(temp == NULL){
+		printf("Error in malloc!\n");
+		return FALSE;
+	}
+	while(current!=NULL && current->data < num){
+		linkp = &current->link;
+		current = *linkp;
+	}
+	temp->data = num;
+	temp->link = current;
+	*linkp = temp;
+	return TRUE;
+}
+
+```
+Full Source Code : [Here](./sLL.c)
+
+- Use of registers.<p>
+
+Registers can be used to store the address of the pointer to the head/root pointer in the above example. Registers are fast as mentioned in the notes [here](../Misc/registers.md)<p>
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+#define TRUE 1
+#define FALSE 0
+
+typedef struct Node {
+	int data;
+	struct Node* link;
+} node;
+
+int insertList(register node** linkp, int num){
+	register node* current = *linkp;
+	register node* temp = malloc(sizeof(node));
 	if(temp == NULL){
 		printf("Error in malloc!\n");
 		return FALSE;
