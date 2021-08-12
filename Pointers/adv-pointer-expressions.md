@@ -1,7 +1,7 @@
 ## Advanced Pointer Expressions
 
 :information_source: Basic precedence of operators should be used even for complex syntax present here <p> 
-- `int *f()`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:	Function returning pointer to integer.
+- `int *f()`	:	Function returning pointer to integer.
 - `int (*f)()`	:	Pointer to a function.
 - `int *(*f)()`	:	Pointer to function that returns a pointer to an integer.
 - `int *f[]` 	: 	Array of pointer to integer
