@@ -1,22 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define TRUE 1;
-#define FALSE 0;
-
 typedef struct NODE {
-	struct NODE* fw;
-	struct NODE* bw;
+	struct NODE* fwd;
+	struct NODE* bwd;
 	int data;
 } Node;
 
 void printList(Node* head);
-int insertList();
-int createList(Node** head, int* arr, int n);
+int insertList(Node* phead, int data);
+int createList(Node* head, int* arr, int n);
 
 int main(int argc, char* argv[]){
 	int n,i;
-	Node* head = NULL;
+	Node* head = malloc(sizeof(Node));
+	if(head == NULL){
+		printf("Error in malloc\n");
+		exit(EXIT_FAILURE);
+	}
+	head->fwd = NULL;
+	head->bwd = NULL;
+	head->data = 0;
 
 	printf("Enter the number of elements :\n");
 	scanf("%d",&n);
@@ -31,11 +35,10 @@ int main(int argc, char* argv[]){
 		scanf("%d",&arr[i]);
 	}
 
-	if(createList(&head,arr,n))
-		printf("List created successfully!\n");
-	else
+	if(createList(head,arr,n) == -1)
 		printf("Error in creating list!\n");
 
+	printf("Created Liost\n");
 	free(arr);
 	
 	printList(head);
@@ -43,45 +46,58 @@ int main(int argc, char* argv[]){
 	exit(EXIT_SUCCESS);
 }
 
-int createList(Node **headp, int* arr, int n){
-	*headp = malloc(sizeof(Node));
-	if(*headp == NULL)
-		return FALSE;
-
-	(*headp)->data = 0;
-	(*headp)->fw = NULL;
-	(*headp)->bw = NULL;
-
-	for(int i=0; i<n ; i++){
-		Node* new = malloc(sizeof(Node));
-		if(new == NULL)
-			return FALSE;
-
-		new->data = arr[i];
-		new->bw = NULL;
-		new->fw = (*headp)->fw;
-		(*headp)->fw = new;
-		(*headp)->fw->bw = new;
-
-		if(new->fw == NULL)
-			(*headp)->bw = new;
-
+int createList(Node *phead, int* arr, int n){
+	int i;
+	for(i=0;i<n;i++){
+		if(insertList(phead,arr[i])==-1)
+			return -1;
 	}
-	return TRUE;
+	return 1;
 }
 
 void printList(Node* head){
 	Node* temp;
-	temp = head->fw;
+	temp = head->fwd;
 	printf("Traversing List Data using forward :\n");
-	while(head!=NULL){
+	while(temp!=NULL){
 		printf("%d\n",temp->data);
-		temp = temp->fw;
+		temp = temp->fwd;
 	}
-	temp = head->bw;
+	temp = head->bwd;
 	printf("Traversing List Data using backward :\n");
 	while(temp!=NULL){
 		printf("%d\n",temp->data);
-		temp = temp->bw;
+		temp = temp->bwd;
 	}
+}
+
+int insertList(Node* phead, int data){
+	Node* this = phead;
+	Node* next = NULL;
+	Node* new = malloc(sizeof(Node));
+	if(new == NULL){
+		printf("Error in malloc\n");
+		return -1;
+	}
+	new->data = data;
+	while((next = this->fwd)!=NULL && next->data < data){
+		this = next;
+	}
+	
+	this->fwd = new;
+	new->fwd = next;
+
+	if(next!=NULL){ /* At the first node or in the middle */
+		next->bwd = new;
+	}else{ /* At the end or empty list */
+		phead->bwd = new;
+	}
+
+	if(this!=phead){ /* In the middle */
+		new->bwd = this;
+	}else{ /* At the first node */
+		new->bwd = NULL;
+	}
+
+	return 1;
 }
