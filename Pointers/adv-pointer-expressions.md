@@ -14,4 +14,4 @@
 - `int *(*f[])()`	:	Array of pointers to functions that return pointer to integers.<p>
 
 - `int (*f)(int, float)`		: 	Pointer to a function that takes 2 arguments, int and float.
-- `int *(*g[])(int, float)`	:	Array of pointers to function that returns a pointer to integer and takes in two arguments, int and float.  
+- `int *(*g[])(int, float)`	:	Array of pointers to function that returns a pointer to integer and takes in two arguments, int and float. 
