@@ -12,6 +12,8 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 
 ## Contents
 
+### C Language
+
 - [Register variables](./Misc/registers.md)
 
 - Structs
@@ -25,10 +27,11 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 	- [Complex Pointer Declarations](./Pointers/adv-pointer-expressions.md)
 	- [Function Pointers](./Pointers/function-pointers.md)
 
-- Data Structures
-	- Single Linked List
-		- [Optimised Insertion](./Data%20Structures/singleLinkList.md)
-	- Doubly Linked List
-		- [Refactored Insertion](./Data%20Structures/doubleLinkList.md)
-		- A concordance list with Double Linked List - [here](./Data%20Structures/concList.md)
-	- Hashing
+### Data Structures
+
+- Single Linked List
+	- [Optimised Insertion](./Data%20Structures/singleLinkList.md)
+- Doubly Linked List
+	- [Refactored Insertion](./Data%20Structures/doubleLinkList.md)
+	- A concordance list with Double Linked List - [here](./Data%20Structures/concList.md)
+- Hashing
