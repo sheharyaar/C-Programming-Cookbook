@@ -26,6 +26,10 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 - Advanced Pointers
 	- [Complex Pointer Declarations](./Pointers/adv-pointer-expressions.md)
 	- [Function Pointers](./Pointers/function-pointers.md)
+	- [String Literals in C](./Pointers/string-literals.md)      
+
+### I/O in C
+
 
 ### Data Structures
 
@@ -35,3 +39,11 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 	- [Refactored Insertion](./Data%20Structures/doubleLinkList.md)
 	- A concordance list with Double Linked List - [here](./Data%20Structures/concList.md)
 - Hashing
+
+### Abstract Data Types
+
+- Stacks
+
+- Queues
+
+- Trees 
