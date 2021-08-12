@@ -21,9 +21,14 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 - Unions
 	- [Unions](./Unions/unions.md)
 
+- Advanced Pointers
+	- [Complex Pointer Declarations]()
+	- [Function Pointers]()
+
 - Data Structures
 	- Single Linked List
 		- [Optimised Insertion](./Data%20Structures/singleLinkList.md)
 	- Doubly Linked List
 		- [Refactored Insertion](./Data%20Structures/doubleLinkList.md)
+		- A concordance list with Double Linked List - [here](./Data%20Structures/concList.md)
 	- Hashing
