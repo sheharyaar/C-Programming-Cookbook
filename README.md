@@ -23,3 +23,5 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 
 - Data Structures
 	- [Single Linked List - Optimised Insertion](./Data%20Structures/singleLinkList.md)
+	- [Double Linked List - Refactored Insertion](./Data%20Structures/doubleLinkList.md)
+    
