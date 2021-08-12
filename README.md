@@ -22,5 +22,8 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 	- [Unions](./Unions/unions.md)
 
 - Data Structures
-	- [Single Linked List - Optimised Insertion](./Data%20Structures/singleLinkList.md)
-	- [Double Linked List - Refactored Insertion](./Data%20Structures/doubleLinkList.md)
+	- Single Linked List
+		- [Optimised Insertion](./Data%20Structures/singleLinkList.md)
+	- Doubly Linked List
+		- [Refactored Insertion](./Data%20Structures/doubleLinkList.md)
+	- Hashing
