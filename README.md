@@ -22,8 +22,8 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 	- [Unions](./Unions/unions.md)
 
 - Advanced Pointers
-	- [Complex Pointer Declarations]()
-	- [Function Pointers]()
+	- [Complex Pointer Declarations](./Pointers/adv-pointer-expressions.md)
+	- [Function Pointers](./Pointers/function-pointers.md)
 
 - Data Structures
 	- Single Linked List
