@@ -47,3 +47,6 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 - Queues
 
 - Trees 
+
+### Misc
+- N Queen Problem - [Backtrack Soution in C](./Misc/n-queens-problem-backtrack.c)
