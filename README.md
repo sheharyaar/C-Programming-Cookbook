@@ -29,20 +29,13 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 	- [String Literals in C](./Pointers/string-literals.md)      
 	- Generic Bubble Sort in C - [Using callback functions](./Pointers/generic-bubbleSort.c)
 
-### I/O in C
-
-
-### Data Structures
-
-- Single Linked List
-	- [Optimised Insertion](./Data%20Structures/singleLinkList.md)
-- Doubly Linked List
-	- [Refactored Insertion](./Data%20Structures/doubleLinkList.md)
-	- A concordance list with Double Linked List - [here](./Data%20Structures/concList.md)
-- Hashing
-
 ### Abstract Data Types
 
+- Single Linked List
+	- [Optimised Insertion](./Linked%20Lists/singleLinkList.md)
+- Doubly Linked List
+	- [Refactored Insertion](./Linked%20Lists/doubleLinkList.md)
+	- A concordance list with Double Linked List - [here](./Linked%20Lists/concList.md)
 - Stacks
 
 - Queues
@@ -50,5 +43,10 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 - Trees 
 
 ### Misc
+
 - N Queen Problem - [Backtrack Soution in C](./Misc/n-queens-problem-backtrack.c)
+
+- A basic checksum using C - [here](./Misc/basic-checksum.c)
+
+- Hashing
 
