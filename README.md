@@ -27,6 +27,7 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 	- [Complex Pointer Declarations](./Pointers/adv-pointer-expressions.md)
 	- [Function Pointers](./Pointers/function-pointers.md)
 	- [String Literals in C](./Pointers/string-literals.md)      
+	- Generic Bubble Sort in C - [Using callback functions](./Pointers/generic-bubbleSort.c)
 
 ### I/O in C
 

@@ -7,3 +7,24 @@
 
 :warning: Cannot be used with `static`<p>
 :warning: Dereferencing a register is illegal ( as they are not stored in memory )
+
+<p> Registers can be use to improve code fragments like :
+
+```c
+Transaction *trans;
+trans->product->orders += 1;
+trans->product->quantity_on_hand -= trans->quantity;
+trans->product->supplier->reorder_quantity += trans->quantity;
+if(trans->product->export_restricted){
+	...
+}
+
+/* Improvements:
+	Declare a variable trans->product;
+	Use registers
+*/
+
+register Product *the_product;
+the_product = trans->product;
+		
+```
