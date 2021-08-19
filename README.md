@@ -33,15 +33,15 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 
 - Single Linked List
 	- [Optimised Insertion](./Linked%20Lists/singleLinkList.md)
+
 - Doubly Linked List
 	- [Refactored Insertion](./Linked%20Lists/doubleLinkList.md)
 	- A concordance list with Double Linked List - [here](./Linked%20Lists/concList.md)
-- Stacks
-
-- Queues
 
 - Trees 
-
+	- Binary Search Tree - [here](./Trees/tree1.c)
+	- Trie Data Structure with insertion and searching - [here](./Trees/trie.c)
+	- Heap Implementation using Trees- [here](./Trees/headp-tree.c) 
 ### Misc
 
 - N Queen Problem - [Backtrack Soution in C](./Misc/n-queens-problem-backtrack.c)
