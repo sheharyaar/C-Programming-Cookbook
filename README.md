@@ -14,14 +14,14 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 
 ### C Language
 
-- Register Variables - [here](./Misc/registers.md)
+- Register Variables - [here](./Basics/registers.md)
 
 - Structs
-	- Notes on Structs - [here](./Structs/struct.md)
-	- Bitfields - [here](./Structs/bitfields.md)
+	- Notes on Structs - [here](./Basics/struct.md)
+	- Bitfields - [here](./Basics/bitfields.md)
 
 - Unions
-	- Unions - [here](./Unions/unions.md)
+	- Unions - [here](./Basics/unions.md)
 
 - Advanced Pointers
 	- Complex Pointer Declarations - [here](./Pointers/adv-pointer-expressions.md)
