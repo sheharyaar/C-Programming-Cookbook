@@ -14,28 +14,28 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 
 ### C Language
 
-- [Register variables](./Misc/registers.md)
+- Register Variables - [here](./Misc/registers.md)
 
 - Structs
-	- [Notes on Structs](./Structs/struct.md)
-	- [Bitfields](./Structs/bitfields.md)
+	- Notes on Structs - [here](./Structs/struct.md)
+	- Bitfields - [here](./Structs/bitfields.md)
 
 - Unions
-	- [Unions](./Unions/unions.md)
+	- Unions - [here](./Unions/unions.md)
 
 - Advanced Pointers
-	- [Complex Pointer Declarations](./Pointers/adv-pointer-expressions.md)
-	- [Function Pointers](./Pointers/function-pointers.md)
-	- [String Literals in C](./Pointers/string-literals.md)      
-	- Generic Bubble Sort in C - [Using callback functions](./Pointers/generic-bubbleSort.c)
+	- Complex Pointer Declarations - [here](./Pointers/adv-pointer-expressions.md)
+	- Function Pointers - [here](./Pointers/function-pointers.md)
+	- String Literals in C - [here](./Pointers/string-literals.md)      
+	- Generic Bubble Sort in C : Using callback functions - [here](./Pointers/generic-bubbleSort.c)
 
 ### Abstract Data Types
 
 - Single Linked List
-	- [Optimised Insertion](./Linked%20Lists/singleLinkList.md)
+	- Optimised Insertion - [here](./Linked%20Lists/singleLinkList.md)
 
 - Doubly Linked List
-	- [Refactored Insertion](./Linked%20Lists/doubleLinkList.md)
+	- Refactored Insertion - [here](./Linked%20Lists/doubleLinkList.md)
 	- A concordance list with Double Linked List - [here](./Linked%20Lists/concList.md)
 
 - Trees 
@@ -44,9 +44,9 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 	- Heap Implementation using Trees- [here](./Trees/heap-tree.c) 
 ### Misc
 
-- N Queen Problem - [Backtrack Soution in C](./Misc/n-queens-problem-backtrack.c)
+- N Queen Problem : Backtrack Soution in C - [here](./Misc/n-queens-problem-backtrack.c)
 
 - A basic checksum using C - [here](./Misc/basic-checksum.c)
 
-- Hashing
+- Hashing - [here](./Misc/hash.md)
 
