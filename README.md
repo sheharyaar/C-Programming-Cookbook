@@ -41,7 +41,7 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 - Trees 
 	- Binary Search Tree - [here](./Trees/tree1.c)
 	- Trie Data Structure with insertion and searching - [here](./Trees/trie.c)
-	- Heap Implementation using Trees- [here](./Trees/headp-tree.c) 
+	- Heap Implementation using Trees- [here](./Trees/heap-tree.c) 
 ### Misc
 
 - N Queen Problem - [Backtrack Soution in C](./Misc/n-queens-problem-backtrack.c)
