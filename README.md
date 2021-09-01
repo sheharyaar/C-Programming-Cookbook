@@ -1,4 +1,16 @@
-# C Programming Cookbook
+# My C Projects
+
+## Sqlite
+
+Project Page - [here](./)
+
+## OpenCV
+
+## ImageMagick
+
+## CUDA
+
+# C Programming Notes
 
 Contains short notes on certain C programming tips.
 
