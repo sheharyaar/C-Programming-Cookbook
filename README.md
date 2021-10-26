@@ -1,15 +1,3 @@
-# My C Projects
-
-## Sqlite
-
-Project Page - [here](./)
-
-## OpenCV
-
-## ImageMagick
-
-## CUDA
-
 # C Programming Notes
 
 Contains short notes on certain C programming tips.
@@ -40,6 +28,8 @@ The book is old but it sure is gold. I can recommend this book at any moment of 
 	- Function Pointers - [here](./Pointers/function-pointers.md)
 	- String Literals in C - [here](./Pointers/string-literals.md)      
 	- Generic Bubble Sort in C : Using callback functions - [here](./Pointers/generic-bubbleSort.c)
+
+- Retrict in C - [here](./Basics/restrict.md)
 
 ### Abstract Data Types
 
